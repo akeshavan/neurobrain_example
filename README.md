@@ -1,6 +1,23 @@
 # neurobrain_example
 
-> A Vue.js project
+Testing the neuroimage
+
+```bash
+git clone https://github.com/akeshavan/neurobrain_example
+cd neurobrain_example
+npm install
+ln -s $PATH_TO_NEUROBRAIN_REPO node_modules/neurobrain #symlink your neurobrain repo so its inside node_modules
+npm run dev #
+```
+
+and also make sure you have
+
+```bash
+cd $PATH_TO_NEUROBRAIN_REPO
+yarn dev
+```
+
+running. Both are hot reloading, so when you make a change to neurobrain, the examples works as well.
 
 ## Build Setup
 
